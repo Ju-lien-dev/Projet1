@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:poppins;
+
+}
+@font-face {
+    font-family:poppins bold;
+    src: url(./agenceco-website/Assets/Polices/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family:poppins;
+    src: url(./agenceco-website/Assets/Polices/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family:poppins light;
+    src: url(./agenceco-website/Assets/Polices/Poppins/Poppins-ExtraLight.ttf);
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+.nav-left {
+    padding-left: 2%;
+    color: #005530;
+    font-family: poppins bold;
+    width: 50%;}
+
+    .nav-right { width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    
+.nav-right ul{
+    width: 100%;
+    list-style: none;
+    font-size: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    align-items: center;
+    
+    
+
+}
+header{
+    background-image: url(./agenceco-website/Assets/Images/rodion-kutsaev-049M_crau5k-unsplash\ 1.jpg);
+   
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    h2{color: white;
+        font-family:poppins bold;
+        font-size: 28px;
+        height: 80%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 4%;
+        align-items: flex-end;
+    }
+    h1{color: #D5F31F;
+    font-size: 35px;
+    font-family:poppins bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4%;
+    
+        }
+}
+.team1{
+    margin-top: 4%;
+    text-align: center;
+
+    h2{
+        color: #007844;}
+        font-size: 20px;
+
+    h3{
+        margin-top: 2%;
+        text-align: center;
+        font-size: 16px;
+        
+    }  
+}
+.team2 {
+    margin-top: 4%;
+    display: flex;
+    margin-bottom: 4%;
+    
+}
+.team2 img{ 
+    width: 150px;
+    height: 150px;
+border-radius: 150px;
+
+
+}
+.team2 h3{text-align: center;
+margin-top: 2%;}
+.team2 p {text-align: center;
+font-family:poppins light;
+font-size: 11px;
+width: 50%;
+margin-top: 2%;}
+.member1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.member2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.member3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.down1 ul{display: flex;
+list-style: none;
+justify-content: space-around;
+color: #D5F31F;
+background-color: #053b44;
+font-size: 30px;
+font-family:poppins bold;
+font-weight: 900;
+padding-top: 20px;
+}
+.down2 ul{ 
+    display: flex;
+list-style: none;
+justify-content: space-around;
+background-color: #053b44;
+color: white;
+padding-bottom: 20px;}
+
+#services h2{
+    padding-top: 4%;
+    text-align: center;
+    color: #007844;
+    font-size: 30px;
+}
+
+.logos{
+    margin-top: 4%;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.img{background-color: gainsboro;
+height: 250px;
+width: 250px;
+border-radius: 10px;
+}
+
+
+
+.img2{background-color: gainsboro;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;}
+
+
+
+
