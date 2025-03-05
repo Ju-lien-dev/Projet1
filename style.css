@@ -21,16 +21,27 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
-
+    position: fixed;
+    background: white;
 }
 .nav-left {
     padding-left: 2%;
     color: #005530;
     font-family: poppins bold;
-    width: 50%;}
+    width: 50%;
+}
+.nav-left a{text-decoration: none;
+    color: #005530;
+    font-family: poppins bold;
+
+}
+    .nav-left em{color: #005530;
+        font-family: poppins bold;
+        font-size: 17px;
+        }
 
     .nav-right { width: 50%;
         display: flex;
@@ -85,6 +96,8 @@ header{
         margin-top: 2%;
         text-align: center;
         font-size: 16px;
+        padding-left: 10%;
+        padding-right: 10%;
         
     }  
 }
