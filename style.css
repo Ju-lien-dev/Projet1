@@ -66,19 +66,17 @@ nav{
     justify-content: space-between;
     padding-right: 2%;
     align-items: center;
-    white-space: nowrap;
-
-    
-    
+    white-space: nowrap;   
 
 }
+#link {text-decoration: none;}
 header{
     background-image: url(./agenceco-website/Assets/Images/rodion-kutsaev-049M_crau5k-unsplash\ 1.jpg);
     object-fit: cover;
-   
     height: 500px;
     display: flex;
     flex-direction: column;
+    
     h2{color: white;
         font-family:poppins bold;
         font-size: 28px;
@@ -115,9 +113,11 @@ header{
     }  
 }
 .team2 {
+    width: 100%;
     margin-top: 4%;
     display: flex;
     margin-bottom: 4%;
+    justify-content: space-between;
     
 }
 .member1{
@@ -336,6 +336,7 @@ margin-top: 4%;}
         min-width: 800px;
         display: flex;
         margin-top: 4%;
+        
     }
     .message ::placeholder{
         color: white;
@@ -347,6 +348,7 @@ margin-top: 4%;}
         border-bottom: 2px solid white;
         margin-left: 4%;
         width: 100%;
+        resize: none;
         
         }
     .submit-button{
@@ -361,7 +363,8 @@ margin-top: 4%;}
         height: 40px;
         text-align: center;
         font-family:poppins;
-        font-size: 12px;}
+        font-size: 12px;
+        cursor: pointer;}
 
         #about{display: flex;
            padding: 4% 11%;}
@@ -496,6 +499,7 @@ margin-top: 4%;}
     border-radius: 100%;
     width: 25px;
     height: 25px;
+    cursor: pointer;
     }
     /* Permet des changer les caractéristiques du boutton lorsqu il est appuyé */
     .buttons button:active{background-color:var(--background-dark-color);
@@ -542,10 +546,24 @@ margin-top: 4%;}
     .bb5-logos{ display: flex;
         flex-direction: column;
         justify-content: space-around;}
-    .bb5-l1{height: 20px;
-    object-fit: cover;
-    overflow: hidden;}
-    .bb5-l2{height: 20px;}
+    .bb5-l1{height: 40px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{height: 15px;
+        width: 15px;}}
+
+    .bb5-l2{height: 40px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{height: 15px;
+        width: 15px;}}
+        
+    .bb5-text{margin: 13% 0;}
+
         
     footer{display: flex;
         padding: 2% 9%;
