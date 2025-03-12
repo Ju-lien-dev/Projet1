@@ -1230,4 +1230,30 @@ footer {
 
         }
     }
+
+    @media screen and (max-width:357px) {
+
+
+        header h1 {
+            font-size: 23px;
+        }
+
+        .about-right-container {
+            border: none;
+            width: 100%;
+        }
+
+        .ar-logos {
+            padding-top: 10%;
+            flex-wrap: wrap;
+        }
+
+        #bottom-bar {
+            padding: 0 0;
+        }
+
+        .bb5 {
+            width: 100%;
+        }
+    }
 }
