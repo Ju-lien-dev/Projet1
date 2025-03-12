@@ -1147,6 +1147,8 @@ footer {
 
 
         @media screen and (max-width:420px) {
+
+
             .nav-right ul {
                 flex-direction: column;
                 font-size: 14px;
@@ -1166,6 +1168,63 @@ footer {
                 font-size: 28px;
                 padding-right: 0;
                 justify-content: center;
+            }
+
+            #contact p {
+                font-size: 10px;
+            }
+
+            .form-left {
+                flex-direction: column;
+                min-width: 200px;
+                width: 100%;
+                align-items: center;
+            }
+
+            #name {
+                margin-top: 4%;
+                width: 80%;
+            }
+
+            #cat {
+                width: 80%;
+                margin-top: 4%;
+            }
+
+            .form-right {
+                flex-direction: column;
+                min-width: 200px;
+                width: 100%;
+                align-items: center;
+            }
+
+            #tel {
+                width: 80%;
+
+            }
+
+            #city {
+                width: 80%;
+                margin-top: 4%;
+            }
+
+            .email {
+                min-width: 200px;
+                justify-content: center;
+            }
+
+            #email {
+                width: 80%;
+            }
+
+            .message {
+                min-width: 200px;
+                justify-content: center;
+
+            }
+
+            #message {
+                width: 80%;
             }
 
 
