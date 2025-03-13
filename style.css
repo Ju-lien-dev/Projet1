@@ -570,6 +570,7 @@ header h1 {
     height: auto;
     object-fit: cover;
     overflow: visible;
+    will-change: transform;
 }
 
 .logo-container2 {
@@ -587,6 +588,7 @@ header h1 {
     height: auto;
     object-fit: cover;
     overflow: visible;
+    will-change: transform;
 }
 
 .logo-container3 {
@@ -604,6 +606,7 @@ header h1 {
     height: auto;
     object-fit: cover;
     overflow: visible;
+    will-change: transform;
 }
 
 
@@ -785,6 +788,7 @@ img {
     height: 15px;
     width: 15px;
     overflow: visible;
+    will-change: transform;
 }
 
 .bb5-l2 {
@@ -799,6 +803,8 @@ img {
     height: 15px;
     width: 15px;
     overflow: visible;
+    will-change: transform;
+
 }
 
 .bb5-text {
