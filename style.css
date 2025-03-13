@@ -545,6 +545,7 @@ header h1 {
 .logo-container1 img {
     width: 30px;
     height: fit-content;
+    object-fit: cover;
 }
 
 .logo-container2 {
@@ -560,6 +561,7 @@ header h1 {
 .logo-container2 img {
     width: 30px;
     height: fit-content;
+    object-fit: cover;
 }
 
 .logo-container3 {
@@ -575,6 +577,7 @@ header h1 {
 .logo-container3 img {
     width: 30px;
     height: fit-content;
+    object-fit: cover;
 }
 
 
@@ -1148,6 +1151,9 @@ footer {
 
         @media screen and (max-width:420px) {
 
+            nav {
+                position: unset
+            }
 
             .nav-right ul {
                 flex-direction: column;
@@ -1176,7 +1182,7 @@ footer {
 
             .form-left {
                 flex-direction: column;
-                min-width: 200px;
+                min-width: 300px;
                 width: 100%;
                 align-items: center;
             }
@@ -1193,7 +1199,7 @@ footer {
 
             .form-right {
                 flex-direction: column;
-                min-width: 200px;
+                min-width: 300px;
                 width: 100%;
                 align-items: center;
             }
@@ -1209,7 +1215,7 @@ footer {
             }
 
             .email {
-                min-width: 200px;
+                min-width: 350px;
                 justify-content: center;
             }
 
@@ -1218,7 +1224,7 @@ footer {
             }
 
             .message {
-                min-width: 200px;
+                min-width: 350px;
                 justify-content: center;
 
             }
