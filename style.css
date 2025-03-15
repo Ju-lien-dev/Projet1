@@ -572,10 +572,10 @@ header h1 {
 }
 
 .logo-container1 img {
-    width: 30px;
+    width: auto;
     height: auto;
-    object-fit: cover;
-    overflow: visible;
+    transform: scale(0.4);
+
 }
 
 .logo-container2 {
@@ -589,10 +589,10 @@ header h1 {
 }
 
 .logo-container2 img {
-    width: 30px;
+    width: auto;
     height: auto;
-    object-fit: cover;
-    overflow: visible;
+    transform: scale(0.4);
+
 }
 
 .logo-container3 {
@@ -606,10 +606,9 @@ header h1 {
 }
 
 .logo-container3 img {
-    width: 30px;
+    width: auto;
     height: auto;
-    object-fit: fill;
-    overflow: visible;
+    transform: scale(0.4);
 
 }
 
