@@ -263,14 +263,14 @@ header h1 {
 .logo1 {
     height: 250px;
     width: 250px;
-    background-color: rgba(220, 238, 232, 0.413);
+    background-color: rgba(220, 238, 232, 0.527);
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
 }
 
 .img {
-    background-color: rgba(220, 238, 232, 0.413);
     width: 50%;
     height: 50%;
     border-radius: 10px;
@@ -290,14 +290,14 @@ header h1 {
 .logo2 {
     height: 250px;
     width: 250px;
-    background-color: rgba(220, 238, 232, 0.413);
+    background-color: rgba(220, 238, 232, 0.527);
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
 }
 
 .img2 {
-    background-color: rgba(220, 238, 232, 0.413);
     width: 50%;
     height: 50%;
     border-radius: 10px;
