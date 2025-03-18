@@ -931,8 +931,11 @@ footer {
 
 
 @media screen and (max-width:700px) {
+    nav {
+        position: fixed;
+    }
+
     .nav-left {
-        /* display: none; */
         width: 10%;
     }
 
