@@ -370,7 +370,6 @@ header h1 {
 
 .form-left {
     width: 100%;
-    /* min-width: 800px; */
     display: flex;
     margin-top: 4%;
 
@@ -403,7 +402,6 @@ header h1 {
 
 .form-right {
     width: 100%;
-    /* min-width: 800px; */
     display: flex;
     margin-top: 4%;
 }
@@ -419,7 +417,6 @@ header h1 {
     border-style: none;
     border-bottom: 2px solid white;
     width: 50%;
-    /* margin-left: 4%; */
     color: white;
 }
 
@@ -435,7 +432,6 @@ header h1 {
 
 .email {
     width: 100%;
-    /* min-width: 800px; */
     display: flex;
     margin-top: 4%;
 }
@@ -1007,25 +1003,6 @@ footer {
         font-size: 11px;
     }
 
-    .form-left {
-        width: 80%;
-        min-width: 400px;
-    }
-
-    .form-right {
-        width: 80%;
-        min-width: 400px;
-    }
-
-    .email {
-        width: 80%;
-        min-width: 400px;
-    }
-
-    .message {
-        width: 80%;
-        min-width: 400px;
-    }
 
     /*  section A propos */
     #about {
@@ -1079,9 +1056,13 @@ footer {
     }
 
     /* section formulaire */
+    .Form {
+        width: 90%;
+    }
+
+
     .form-left {
         flex-direction: column;
-        min-width: 400px;
         width: 100%;
         align-items: center;
     }
@@ -1098,7 +1079,6 @@ footer {
 
     .form-right {
         flex-direction: column;
-        min-width: 400px;
         width: 100%;
         align-items: center;
     }
@@ -1114,7 +1094,6 @@ footer {
     }
 
     .email {
-        min-width: 400px;
         justify-content: center;
     }
 
@@ -1123,7 +1102,6 @@ footer {
     }
 
     .message {
-        min-width: 400px;
         justify-content: center;
     }
 
@@ -1249,7 +1227,6 @@ footer {
 
                 .form-left {
                     flex-direction: column;
-                    min-width: 300px;
                     width: 100%;
                     align-items: center;
                 }
@@ -1266,7 +1243,6 @@ footer {
 
                 .form-right {
                     flex-direction: column;
-                    min-width: 300px;
                     width: 100%;
                     align-items: center;
                 }
@@ -1282,7 +1258,6 @@ footer {
                 }
 
                 .email {
-                    min-width: 350px;
                     justify-content: center;
                 }
 
@@ -1291,7 +1266,6 @@ footer {
                 }
 
                 .message {
-                    min-width: 350px;
                     justify-content: center;
 
                 }
@@ -1330,3 +1304,4 @@ footer {
             }
         }
     }
+}
