@@ -61,6 +61,7 @@ nav {
 }
 
 .nav-right {
+    padding-right: 2%;
     width: 60%;
     display: flex;
     align-items: center;
@@ -72,10 +73,14 @@ nav {
     font-size: 70%;
     display: flex;
     justify-content: space-between;
-    padding-right: 2%;
     align-items: center;
     white-space: nowrap;
 
+}
+
+.nav-right ul a {
+    color: var(--titles-color);
+    text-decoration: none;
 }
 
 .burger {
@@ -127,7 +132,7 @@ header h1 {
 }
 
 .team1 {
-    margin-top: 4%;
+    padding-top: 4%;
     text-align: center;
 }
 
@@ -236,10 +241,19 @@ header h1 {
     overflow: hidden;
 }
 
+.down1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--background-dark-color);
+}
+
+
 .down1 ul {
     display: flex;
+    flex-direction: column;
     list-style: none;
-    justify-content: space-around;
+    align-items: center;
     color: var(--yellow-color);
     background-color: var(--background-dark-color);
     font-size: 30px;
@@ -247,13 +261,14 @@ header h1 {
     padding-top: 20px;
 }
 
-.down2 ul {
+.down1 ul :nth-child(2) {
     display: flex;
     list-style: none;
     justify-content: space-around;
     background-color: var(--background-dark-color);
     color: white;
     padding-bottom: 20px;
+    font-size: 16px;
 }
 
 #services h2 {
@@ -349,9 +364,13 @@ header h1 {
     padding-top: 2%;
 }
 
+.Form {
+    width: 70%;
+}
+
 .form-left {
     width: 100%;
-    min-width: 800px;
+    /* min-width: 800px; */
     display: flex;
     margin-top: 4%;
 
@@ -384,7 +403,7 @@ header h1 {
 
 .form-right {
     width: 100%;
-    min-width: 800px;
+    /* min-width: 800px; */
     display: flex;
     margin-top: 4%;
 }
@@ -416,7 +435,7 @@ header h1 {
 
 .email {
     width: 100%;
-    min-width: 800px;
+    /* min-width: 800px; */
     display: flex;
     margin-top: 4%;
 }
@@ -438,7 +457,7 @@ header h1 {
 
 .message {
     width: 100%;
-    min-width: 800px;
+    /* min-width: 800px; */
     display: flex;
     margin-top: 4%;
 }
@@ -900,30 +919,6 @@ footer {
         width: 70%
     }
 
-    #contact {
-        width: 100%;
-    }
-
-    .form-left {
-        width: 80%;
-        min-width: 600px;
-    }
-
-    .form-right {
-        width: 80%;
-        min-width: 600px;
-    }
-
-    .email {
-        width: 80%;
-        min-width: 600px;
-    }
-
-    .message {
-        width: 80%;
-        min-width: 600px;
-    }
-
     .ar-logos p {
         font-size: 9px;
     }
@@ -966,18 +961,19 @@ footer {
     .nav-right.active ul li {
         margin: 15px 0;
     }
+
+    .down1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
 }
 
 @media screen and (max-width:660px) {
 
-    /* section team  */
-    .down1 ul {
-        font-size: 150%;
-    }
 
-    .down2 ul {
-        font-size: 80%;
-    }
 
     /* section nos services */
     .logos {
@@ -1220,129 +1216,117 @@ footer {
         @media screen and (max-width:470px) {
 
 
-            /* section team  */
-            .down1 ul {
-                font-size: 120%;
-            }
+            @media screen and (max-width:420px) {
 
-            .down2 ul {
-                font-size: 60%;
-            }
+                nav {
+                    position: fixed
+                }
 
+                .nav-right ul {
+                    flex-direction: column;
+                    font-size: 14px;
+                }
+
+                header {
+                    height: 400px;
+                }
+
+                header h2 {
+                    font-size: 18px;
+                    padding-right: 0;
+                    justify-content: center;
+                }
+
+                header h1 {
+                    font-size: 28px;
+                    padding-right: 0;
+                    justify-content: center;
+                }
+
+                #contact p {
+                    font-size: 10px;
+                }
+
+                .form-left {
+                    flex-direction: column;
+                    min-width: 300px;
+                    width: 100%;
+                    align-items: center;
+                }
+
+                #name {
+                    margin-top: 4%;
+                    width: 80%;
+                }
+
+                #cat {
+                    width: 80%;
+                    margin-top: 4%;
+                }
+
+                .form-right {
+                    flex-direction: column;
+                    min-width: 300px;
+                    width: 100%;
+                    align-items: center;
+                }
+
+                #tel {
+                    width: 80%;
+
+                }
+
+                #city {
+                    width: 80%;
+                    margin-top: 4%;
+                }
+
+                .email {
+                    min-width: 350px;
+                    justify-content: center;
+                }
+
+                #email {
+                    width: 80%;
+                }
+
+                .message {
+                    min-width: 350px;
+                    justify-content: center;
+
+                }
+
+                #message {
+                    width: 80%;
+                }
+
+
+            }
         }
 
+        @media screen and (max-width:400px) {
 
-        @media screen and (max-width:420px) {
-
-            nav {
-                position: fixed
-            }
-
-            .nav-right ul {
-                flex-direction: column;
-                font-size: 14px;
-            }
-
-            header {
-                height: 400px;
-            }
-
-            header h2 {
-                font-size: 18px;
-                padding-right: 0;
-                justify-content: center;
-            }
 
             header h1 {
-                font-size: 28px;
-                padding-right: 0;
-                justify-content: center;
+                font-size: 23px;
             }
 
-            #contact p {
-                font-size: 10px;
-            }
-
-            .form-left {
-                flex-direction: column;
-                min-width: 300px;
+            .about-right-container {
+                border: none;
                 width: 100%;
-                align-items: center;
             }
 
-            #name {
-                margin-top: 4%;
-                width: 80%;
+            .ar-logos {
+                padding-top: 10%;
+                flex-wrap: wrap;
             }
 
-            #cat {
-                width: 80%;
-                margin-top: 4%;
+            #bottom-bar {
+                padding: 30px 0;
             }
 
-            .form-right {
-                flex-direction: column;
-                min-width: 300px;
+            .bb5 {
                 width: 100%;
-                align-items: center;
             }
-
-            #tel {
-                width: 80%;
-
-            }
-
-            #city {
-                width: 80%;
-                margin-top: 4%;
-            }
-
-            .email {
-                min-width: 350px;
-                justify-content: center;
-            }
-
-            #email {
-                width: 80%;
-            }
-
-            .message {
-                min-width: 350px;
-                justify-content: center;
-
-            }
-
-            #message {
-                width: 80%;
-            }
-
-
         }
     }
-
-    @media screen and (max-width:400px) {
-
-
-        header h1 {
-            font-size: 23px;
-        }
-
-        .about-right-container {
-            border: none;
-            width: 100%;
-        }
-
-        .ar-logos {
-            padding-top: 10%;
-            flex-wrap: wrap;
-        }
-
-        #bottom-bar {
-            padding: 30px 0;
-        }
-
-        .bb5 {
-            width: 100%;
-        }
-    }
-}
