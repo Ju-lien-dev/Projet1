@@ -102,8 +102,7 @@ nav {
 
 header {
     background-image: url(./agenceco-website/Assets/Images/rodion-kutsaev-049M_crau5k-unsplash\ 1.jpg);
-    object-fit: cover;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
 }
@@ -875,7 +874,7 @@ header h1 {
 footer {
     display: flex;
     padding: 2% 9%;
-    background: black;
+    background: #042328;
     color: white;
 }
 
